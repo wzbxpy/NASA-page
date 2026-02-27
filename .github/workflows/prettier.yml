@@ -17,13 +17,22 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
       - name: Install Prettier 💾
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
-      - name: Prettier Check 🔎
-        id: prettier
-        run: npx prettier . --check
+      - name: Prettier Auto-Fix 🪄
+        # 直接运行格式化并写入文件
+        run: npx prettier . --write
+      - name: Commit and Push changes 🚀
+        # 使用官方推荐的自动提交 Action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "style: 🤖 自动修复代码格式 (Prettier)"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
       - name: Create diff 📝
         # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
         if: ${{ failure() }}
