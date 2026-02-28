@@ -259,3 +259,33 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+
+// Member profiles styles
+.faculty-page,
+.students-page,
+.alumni-page {
+  .member-info {
+    font-size: 0.875rem; // 14px
+    
+    h3 {
+      font-size: 1.125rem; // 18px
+      margin: 0 0 0.5rem 0;
+      font-weight: 600;
+    }
+    
+    p {
+      margin-bottom: 0.25rem;
+      line-height: 1.6;
+    }
+    
+    a {
+      color: var(--global-theme-color);
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
