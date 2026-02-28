@@ -44,14 +44,28 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/NASA/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/NASA/people/";
-          },
-        },{id: "dropdown-blog",
+        },{id: "dropdown-faculty",
+              title: "Faculty",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/NASA/members/faculty/";
+              },
+            },{id: "dropdown-students",
+              title: "Students",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/NASA/members/students/";
+              },
+            },{id: "dropdown-alumni",
+              title: "Alumni",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/NASA/members/alumni/";
+              },
+            },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "Dropdown",
