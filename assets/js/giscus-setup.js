@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "moira233/NASA",
+    "data-repo": "wzbxpy/NASA-page",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
