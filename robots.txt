@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://moira233.github.io/nasapage/sitemap.xml
+Sitemap: https://wzbxpy.github.io/NASA-page/sitemap.xml
