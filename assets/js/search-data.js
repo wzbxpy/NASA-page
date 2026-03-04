@@ -3,83 +3,41 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-关于",
+    title: "关于",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/NASA-page/";
+      window.location.href = "/nasapage/";
     },
-  },{id: "nav-news",
-          title: "news",
+  },{id: "nav-关于",
+          title: "关于",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/NASA-page/news/";
+            window.location.href = "/nasapage/#lab-intro";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+        },{id: "nav-about",
+          title: "About",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/NASA-page/projects/";
+            window.location.href = "/nasapage/en/#lab-intro";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+        },{id: "nav-团队成员",
+          title: "团队成员",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/NASA-page/repositories/";
+            window.location.href = "/nasapage/#team-members";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+        },{id: "nav-team-members",
+          title: "Team Members",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/NASA-page/teaching/";
+            window.location.href = "/nasapage/en/#team-members";
           },
-        },{id: "dropdown-faculty",
-              title: "Faculty",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/NASA-page/members/faculty/";
-              },
-            },{id: "dropdown-students",
-              title: "Students",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/NASA-page/members/students/";
-              },
-            },{id: "dropdown-alumni",
-              title: "Alumni",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/NASA-page/members/alumni/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/NASA-page/blog/";
-              },
-            },{id: "dropdown-publications",
-              title: "publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/NASA-page/publications/";
-              },
-            },{id: "dropdown-repositories",
-              title: "repositories",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/NASA-page/repositories/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -87,7 +45,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2025/plotly/";
+            window.location.href = "/nasapage/blog/2025/plotly/";
           
         },
       },{id: "post-a-post-with-image-galleries",
@@ -98,18 +56,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+            window.location.href = "/nasapage/blog/2024/photo-gallery/";
           
         },
       },{id: "post-a-post-with-tabs",
@@ -120,7 +67,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2024/tabs/";
+            window.location.href = "/nasapage/blog/2024/tabs/";
           
         },
       },{id: "post-a-post-with-typograms",
@@ -131,7 +78,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2024/typograms/";
+            window.location.href = "/nasapage/blog/2024/typograms/";
           
         },
       },{id: "post-a-post-that-can-be-cited",
@@ -142,7 +89,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2024/post-citation/";
+            window.location.href = "/nasapage/blog/2024/post-citation/";
           
         },
       },{id: "post-a-post-with-pseudo-code",
@@ -153,7 +100,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2024/pseudocode/";
+            window.location.href = "/nasapage/blog/2024/pseudocode/";
           
         },
       },{id: "post-a-post-with-code-diff",
@@ -164,7 +111,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2024/code-diff/";
+            window.location.href = "/nasapage/blog/2024/code-diff/";
           
         },
       },{id: "post-a-post-with-advanced-image-components",
@@ -175,7 +122,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2024/advanced-images/";
+            window.location.href = "/nasapage/blog/2024/advanced-images/";
           
         },
       },{id: "post-a-post-with-vega-lite",
@@ -186,7 +133,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2024/vega-lite/";
+            window.location.href = "/nasapage/blog/2024/vega-lite/";
           
         },
       },{id: "post-a-post-with-geojson",
@@ -197,7 +144,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2024/geojson-map/";
+            window.location.href = "/nasapage/blog/2024/geojson-map/";
           
         },
       },{id: "post-a-post-with-echarts",
@@ -208,7 +155,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2024/echarts/";
+            window.location.href = "/nasapage/blog/2024/echarts/";
           
         },
       },{id: "post-a-post-with-chart-js",
@@ -219,7 +166,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2024/chartjs/";
+            window.location.href = "/nasapage/blog/2024/chartjs/";
           
         },
       },{id: "post-a-post-with-tikzjax",
@@ -230,7 +177,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2023/tikzjax/";
+            window.location.href = "/nasapage/blog/2023/tikzjax/";
           
         },
       },{id: "post-a-post-with-bibliography",
@@ -241,7 +188,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2023/post-bibliography/";
+            window.location.href = "/nasapage/blog/2023/post-bibliography/";
           
         },
       },{id: "post-a-post-with-jupyter-notebook",
@@ -252,7 +199,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2023/jupyter-notebook/";
+            window.location.href = "/nasapage/blog/2023/jupyter-notebook/";
           
         },
       },{id: "post-a-post-with-custom-blockquotes",
@@ -263,7 +210,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2023/custom-blockquotes/";
+            window.location.href = "/nasapage/blog/2023/custom-blockquotes/";
           
         },
       },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -274,7 +221,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2023/sidebar-table-of-contents/";
+            window.location.href = "/nasapage/blog/2023/sidebar-table-of-contents/";
           
         },
       },{id: "post-a-post-with-audios",
@@ -285,7 +232,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2023/audios/";
+            window.location.href = "/nasapage/blog/2023/audios/";
           
         },
       },{id: "post-a-post-with-videos",
@@ -296,7 +243,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2023/videos/";
+            window.location.href = "/nasapage/blog/2023/videos/";
           
         },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
@@ -307,7 +254,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2023/tables/";
+            window.location.href = "/nasapage/blog/2023/tables/";
           
         },
       },{id: "post-a-post-with-table-of-contents",
@@ -318,7 +265,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2023/table-of-contents/";
+            window.location.href = "/nasapage/blog/2023/table-of-contents/";
           
         },
       },{id: "post-a-post-with-giscus-comments",
@@ -329,18 +276,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+            window.location.href = "/nasapage/blog/2022/giscus-comments/";
           
         },
       },{id: "post-a-post-with-redirect",
@@ -351,7 +287,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/assets/pdf/example_pdf.pdf";
+            window.location.href = "/nasapage/assets/pdf/example_pdf.pdf";
           
         },
       },{id: "post-a-post-with-diagrams",
@@ -362,7 +298,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2021/diagrams/";
+            window.location.href = "/nasapage/blog/2021/diagrams/";
           
         },
       },{id: "post-a-distill-style-blog-post",
@@ -373,7 +309,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2021/distill/";
+            window.location.href = "/nasapage/blog/2021/distill/";
           
         },
       },{id: "post-a-post-with-twitter",
@@ -384,7 +320,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2020/twitter/";
+            window.location.href = "/nasapage/blog/2020/twitter/";
           
         },
       },{id: "post-a-post-with-disqus-comments",
@@ -395,7 +331,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2015/disqus-comments/";
+            window.location.href = "/nasapage/blog/2015/disqus-comments/";
           
         },
       },{id: "post-a-post-with-math",
@@ -406,7 +342,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2015/math/";
+            window.location.href = "/nasapage/blog/2015/math/";
           
         },
       },{id: "post-a-post-with-code",
@@ -417,7 +353,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2015/code/";
+            window.location.href = "/nasapage/blog/2015/code/";
           
         },
       },{id: "post-a-post-with-images",
@@ -428,7 +364,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2015/images/";
+            window.location.href = "/nasapage/blog/2015/images/";
           
         },
       },{id: "post-a-post-with-formatting-and-links",
@@ -439,7 +375,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/NASA-page/blog/2015/formatting-and-links/";
+            window.location.href = "/nasapage/blog/2015/formatting-and-links/";
           
         },
       },{id: "news-a-simple-inline-announcement",
@@ -449,7 +385,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/NASA-page/news/announcement_2/";
+              window.location.href = "/nasapage/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -457,100 +393,58 @@ ninja.data = [{
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/NASA-page/projects/1_project/";
+              window.location.href = "/nasapage/projects/1_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/NASA-page/projects/2_project/";
+              window.location.href = "/nasapage/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
-              window.location.href = "/NASA-page/projects/3_project/";
+              window.location.href = "/nasapage/projects/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
-              window.location.href = "/NASA-page/projects/4_project/";
+              window.location.href = "/nasapage/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
-              window.location.href = "/NASA-page/projects/5_project/";
+              window.location.href = "/nasapage/projects/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
-              window.location.href = "/NASA-page/projects/6_project/";
+              window.location.href = "/nasapage/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/NASA-page/projects/7_project/";
+              window.location.href = "/nasapage/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/NASA-page/projects/8_project/";
+              window.location.href = "/nasapage/projects/8_project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
-              window.location.href = "/NASA-page/projects/9_project/";
+              window.location.href = "/nasapage/projects/9_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
-              window.location.href = "/NASA-page/teachings/data-science-fundamentals/";
+              window.location.href = "/nasapage/teachings/data-science-fundamentals/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
-              window.location.href = "/NASA-page/teachings/introduction-to-machine-learning/";
+              window.location.href = "/nasapage/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/NASA-page/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/NASA-page/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',

@@ -1,0 +1,2 @@
+田臣，南京大学教授，博士生导师，国家杰出青年基金获得者。主要从事计算机网络和分布式领域研究，以Networking Applications和Servicing Applications为理念，提出以应用为中心做网络研究。在SIGCOMM/FAST/NSDI/OSDI/EuroSys/SIGMOD等顶级会议和知名国际期刊上录用和发表学术论文70多篇，其中包括南京大学第1篇SIGCOMM和第1篇FAST等。迄今为止论文累计被引用5000余次，研究成果被顶级学术会议多次引用，曾多次担任国际学术会议的程序委员会成员和知名国际期刊的审稿人。
+
