@@ -3,39 +3,25 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-关于",
-    title: "关于",
+    id: "nav-合作教授",
+    title: "合作教授",
     section: "Navigation",
     handler: () => {
       window.location.href = "/NASA-page/";
     },
-  },{id: "nav-关于",
-          title: "关于",
+  },{id: "nav-合作教授",
+          title: "合作教授",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/NASA-page/#lab-intro";
+            window.location.href = "/NASA-page/";
           },
-        },{id: "nav-about",
-          title: "About",
+        },{id: "nav-collaborating-professors",
+          title: "Collaborating Professors",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/NASA-page/en/#lab-intro";
-          },
-        },{id: "nav-团队成员",
-          title: "团队成员",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/NASA-page/#team-members";
-          },
-        },{id: "nav-team-members",
-          title: "Team Members",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/NASA-page/en/#team-members";
+            window.location.href = "/NASA-page/en/";
           },
         },{id: "post-a-post-with-plotly-js",
         
