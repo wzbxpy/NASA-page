@@ -2,7 +2,7 @@
 layout: page
 permalink: /en/#team-members
 title: Team Members
-nav: true
+nav: false
 nav_order: 2
 lang: en
 ---

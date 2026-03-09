@@ -2,7 +2,7 @@
 layout: page
 permalink: /#team-members
 title: 团队成员
-nav: true
+nav: false
 nav_order: 2
 lang: zh
 ---
